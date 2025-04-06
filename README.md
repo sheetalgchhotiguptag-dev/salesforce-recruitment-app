@@ -1,26 +1,39 @@
-# salesforce-recruitment-app
-A smart Salesforce Lightning app to manage job postings, candidates, and hiring status.
 # Salesforce Recruitment App
 
-This is a smart recruitment management system built using Salesforce Lightning App Builder, Apex, and Flows. The app allows recruiters to manage job postings, candidates, and applications easily.
+A smart, customizable recruitment management system built using **Salesforce Lightning App Builder**, **Apex Classes & Triggers**, and **Flows**. This app simplifies the hiring process — from posting jobs to selecting candidates — all within Salesforce CRM.
+
+---
 
 ## Features
-- Create and manage Job Posts
-- Add and track Candidates
-- Link Applications to Jobs and Candidates
-- Track application status (Applied → Shortlisted → Selected → Rejected)
-- Automation using Flows (e.g., email trigger on selection)
-- Reports and Dashboards for hiring insights
 
-## Objects Used
-- **Job__c**: Title, Department, Openings, Deadline
-- **Candidate__c**: Name, Email, Phone, Experience
-- **Application__c**: Lookup to Job & Candidate, Status, Applied Date
+- **Job Posting Management** – Create and manage job listings.
+- **Candidate Tracking** – Add, view, and update candidate info.
+- **Application Linking** – Connect candidates to specific job posts.
+- **Hiring Status Workflow** – Move applications through stages:
+  - Applied → Shortlisted → Selected → Rejected
+- **Automation with Flows** – Email alerts, field updates.
+- **Reports & Dashboards** – Track hiring performance visually.
 
-## Future Scope
-- Integration with email services
-- Resume upload
-- Approval process for offer letter
+---
 
-## Created by
-Sheetal G ChhotiGupta (GitHub: [sheetalgchhotiguptag-dev](https://github.com/sheetalgchhotiguptag-dev))
+## Tech Stack
+
+- **Salesforce Lightning**
+- **Apex Triggers & Classes**
+- **Flow Builder**
+- **Custom Objects & Relationships**
+
+---
+
+## Custom Objects Used
+
+| Object Name       | Description                             |
+|------------------|-----------------------------------------|
+| `Job__c`         | Title, Department, Openings, Deadline   |
+| `Candidate__c`   | Name, Email, Phone, Experience          |
+| `Application__c` | Lookup to Job & Candidate, Status       |
+
+---
+
+## Folder Structure
+
