@@ -1,0 +1,2 @@
+This flow updates the status of the job application based on certain criteria.
+It is an auto-launched flow triggered by record change.
